@@ -78,4 +78,20 @@
             font-size: 14px;  
         }
     }
+
+    .home-passion-show-column{
+        display: none;
+
+        @media (max-width: 991px){
+            display: initial;
+        }
+    }
+
+    .home-passion-hide-column{
+        display: initial;
+
+        @media (max-width: 991px){
+            display: none;
+        }
+    }
 }

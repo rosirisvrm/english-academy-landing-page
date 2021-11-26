@@ -12368,6 +12368,26 @@ fieldset:disabled .btn {
   }
 }
 
+.home-passion .home-passion-show-column {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .home-passion .home-passion-show-column {
+    display: initial;
+  }
+}
+
+.home-passion .home-passion-hide-column {
+  display: initial;
+}
+
+@media (max-width: 991px) {
+  .home-passion .home-passion-hide-column {
+    display: none;
+  }
+}
+
 .testimonial {
   position: relative;
 }
