@@ -100,9 +100,14 @@
                 width: 145px;
                 height: 130px;
 
+                @media (max-width: 991px){
+                    width: 160px;
+                    height: 145px;
+                }
+
                 @media (max-width: 767px){
-                    width: 87px;
-                    height: 78px;
+                    width: 100px;
+                    height: 90px;
                 }
             }
     
@@ -118,8 +123,8 @@
 
                 @media (max-width: 767px){
                     font-size: 10px;
-                    margin-left: 10px;
-                    margin-right: 10px;
+                    margin-left: 0px;
+                    margin-right: 0px;
                 }
             }
 
@@ -128,7 +133,7 @@
                 transform: rotateZ(-4deg);
 
                 @media (max-width: 767px){
-                    top: 3px;
+                    top: 15px;
                 }
 
                 @media (max-width: 374px){
@@ -137,38 +142,45 @@
             }
 
             .managers-post-tips-p2{
-                top: 35px;
+                top: 10px;
                 transform: rotateZ(4deg);
                 @media (max-width: 767px){
                     top: 10px;
                 }
+
+                @media (max-width: 374px){
+                    top: 0px
+                }
             }
             .managers-post-tips-p3{
-                top: 38px;
+                top: 25px;
                 transform: rotateZ(-4deg);
                 @media (max-width: 767px){
                     top: 12px;
                 }
             }
             .managers-post-tips-p4{
-                top: 40px;
+                top: 30px;
                 transform: rotateZ(4deg);
                 @media (max-width: 767px){
                     top: 12px;
                 }
             }
             .managers-post-tips-p5{
-                top: 45px;
+                top: 30px;
                 transform: rotateZ(-4deg);
                 @media (max-width: 767px){
                     top: 16px;
                 }
             }
             .managers-post-tips-p6{
-                top: 35px;
+                top: 10px;
                 transform: rotateZ(4deg);
                 @media (max-width: 767px){
                     top: 10px;
+                }
+                @media (max-width: 374px){
+                    top: 0px
                 }
             }
         }

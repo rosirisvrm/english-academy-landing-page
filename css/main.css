@@ -13854,10 +13854,17 @@ fieldset:disabled .btn {
   height: 130px;
 }
 
+@media (max-width: 991px) {
+  .managers-post-tips .managers-post-tips-container .managers-post-tips-card img {
+    width: 160px;
+    height: 145px;
+  }
+}
+
 @media (max-width: 767px) {
   .managers-post-tips .managers-post-tips-container .managers-post-tips-card img {
-    width: 87px;
-    height: 78px;
+    width: 100px;
+    height: 90px;
   }
 }
 
@@ -13877,8 +13884,8 @@ fieldset:disabled .btn {
 @media (max-width: 767px) {
   .managers-post-tips .managers-post-tips-container .managers-post-tips-card p {
     font-size: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -13890,7 +13897,7 @@ fieldset:disabled .btn {
 
 @media (max-width: 767px) {
   .managers-post-tips .managers-post-tips-container .managers-post-tips-card .managers-post-tips-p1 {
-    top: 3px;
+    top: 15px;
   }
 }
 
@@ -13901,7 +13908,7 @@ fieldset:disabled .btn {
 }
 
 .managers-post-tips .managers-post-tips-container .managers-post-tips-card .managers-post-tips-p2 {
-  top: 35px;
+  top: 10px;
   -webkit-transform: rotateZ(4deg);
           transform: rotateZ(4deg);
 }
@@ -13912,8 +13919,14 @@ fieldset:disabled .btn {
   }
 }
 
+@media (max-width: 374px) {
+  .managers-post-tips .managers-post-tips-container .managers-post-tips-card .managers-post-tips-p2 {
+    top: 0px;
+  }
+}
+
 .managers-post-tips .managers-post-tips-container .managers-post-tips-card .managers-post-tips-p3 {
-  top: 38px;
+  top: 25px;
   -webkit-transform: rotateZ(-4deg);
           transform: rotateZ(-4deg);
 }
@@ -13925,7 +13938,7 @@ fieldset:disabled .btn {
 }
 
 .managers-post-tips .managers-post-tips-container .managers-post-tips-card .managers-post-tips-p4 {
-  top: 40px;
+  top: 30px;
   -webkit-transform: rotateZ(4deg);
           transform: rotateZ(4deg);
 }
@@ -13937,7 +13950,7 @@ fieldset:disabled .btn {
 }
 
 .managers-post-tips .managers-post-tips-container .managers-post-tips-card .managers-post-tips-p5 {
-  top: 45px;
+  top: 30px;
   -webkit-transform: rotateZ(-4deg);
           transform: rotateZ(-4deg);
 }
@@ -13949,7 +13962,7 @@ fieldset:disabled .btn {
 }
 
 .managers-post-tips .managers-post-tips-container .managers-post-tips-card .managers-post-tips-p6 {
-  top: 35px;
+  top: 10px;
   -webkit-transform: rotateZ(4deg);
           transform: rotateZ(4deg);
 }
@@ -13957,6 +13970,12 @@ fieldset:disabled .btn {
 @media (max-width: 767px) {
   .managers-post-tips .managers-post-tips-container .managers-post-tips-card .managers-post-tips-p6 {
     top: 10px;
+  }
+}
+
+@media (max-width: 374px) {
+  .managers-post-tips .managers-post-tips-container .managers-post-tips-card .managers-post-tips-p6 {
+    top: 0px;
   }
 }
 
