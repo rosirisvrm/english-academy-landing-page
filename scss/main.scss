@@ -1,0 +1,50 @@
+@import './variables';
+
+@import '../libs/bootstrap/scss/functions';
+@import '../libs/bootstrap/scss/variables';
+@import '../libs/bootstrap/scss/utilities';
+
+// utilities
+@import './utility';
+
+@import '../libs/bootstrap/scss/bootstrap';
+
+@import './header';
+@import './home-carousel';
+@import './arrow';
+@import './home-cards';
+@import './home-passion';
+@import './home-testimonial';
+@import './companies';
+@import './home-question';
+
+@import './business';
+@import './opinions';
+@import './business-post-tips';
+@import './dropdowns';
+@import './more-information';
+@import './steps';
+@import './step-more-important';
+@import './business-testimonials';
+
+
+@import './managers';
+@import './managers-post-tips';
+@import './reasons';
+@import './thought';
+@import './managers-testimonials';
+@import './click-button-bottom';
+@import './decision';
+
+@import './history';
+@import './team';
+@import './drop';
+@import './values';
+
+
+@import './footer';
+
+@import './estilo';
+
+
+

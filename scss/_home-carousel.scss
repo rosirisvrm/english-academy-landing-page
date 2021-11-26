@@ -1,0 +1,54 @@
+.home-carousel{
+    .carousel-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 72px 205px;
+
+        @media (max-width: 991px){
+            padding: 72px 0px;  
+        }
+
+        .carousel-title{
+            margin-bottom: 58px !important;
+            font-size: 36px;
+
+            @media (max-width: 767px){
+                margin-bottom: 37px !important;
+                font-size: 23px;  
+            }
+        }
+
+        .carousel-highlighted-text{
+            color: $gray-1;
+        }
+
+        .carousel-center-text{
+            color: $principal-dark;
+            border-radius: 12px;
+            padding: 10px 20px;
+            margin-bottom: 36px;
+            font-size: 16px;
+
+            @media (max-width: 767px){
+                margin-bottom: 23px;
+                font-size: 12px;  
+            }
+        }
+
+        .carousel-p-text{
+            margin-top: 45px;
+            margin-left: 80px;
+            margin-right: 80px;
+            font-size: 16px;
+
+            @media (max-width: 767px){
+                font-size: 12px;  
+                margin-top: 24px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        }
+    }
+}

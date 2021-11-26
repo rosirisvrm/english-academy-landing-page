@@ -1,0 +1,203 @@
+.steps{
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 70px 100px;
+
+        @media (max-width: 991px){
+            padding: 30px 0px;  
+        }
+    }
+
+    &-title{
+        color: $principal-dark;
+        margin-bottom: 48px !important;
+        font-size: 36px;
+
+        @media (max-width: 767px){
+            margin-bottom: 30px !important;
+            font-size: 23px;  
+        }
+    }
+
+    // .steps-column{
+    //     margin-bottom: 0px;
+
+    //     @media (max-width: 991px){
+    //         margin-bottom: 25px;  
+    //     }
+
+    //     img{
+    //         width: -webkit-fill-available;
+    //     }
+    // }
+
+    &-card-left{
+      background-color: $gray-4;
+      margin-bottom: 25px;
+      border-radius: 12px 65px 65px 12px;
+      padding-right: 25px;
+
+      @media (max-width: 1199px){
+        border-radius: 12px 80px 80px 12px; 
+      }
+    }
+
+    .steps-content-column-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+
+        @media (max-width: 1199px){
+            padding: 20px 25px 20px 25px ;
+        }
+
+        @media (max-width: 991px){
+            padding: 25px;
+        }
+
+        p{
+            color: #26354A;
+            font-weight: 300;
+            font-size: 15px;
+
+            @media (max-width: 767px){
+                font-size: 13px;  
+            }
+        }
+    }
+
+    &-card-right{
+        background-color: $gray-4;
+        margin-bottom: 25px;
+        border-radius: 65px 12px 12px 65px;
+        padding-left: 25px;
+
+        @media (max-width: 1199px){
+            border-radius: 80px 12px 12px 80px;
+        }
+    }
+  
+    .steps-content-column-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+
+        @media (max-width: 1199px){
+            padding: 20px 25px 20px 25px ;
+        }
+
+        @media (max-width: 991px){
+            padding: 25px;
+        }
+
+        p{
+            color: #26354A;
+            font-weight: 300;
+            font-size: 15px;
+
+            @media (max-width: 767px){
+                font-size: 13px;  
+            }
+        }
+    }
+
+    .steps-number-left{
+        position: absolute;
+        top: 32px;
+        left: 93px;
+        color: #26354A;
+        font-size: 48px;
+
+        @media (max-width: 1199px){
+            top: 40px;
+            left: 63px;
+        }
+
+        @media (max-width: 991px){
+            top: 30px;
+            left: 150px;
+        }
+
+        @media (max-width: 767px){
+            left: 90px;
+        }
+
+        @media (max-width: 425px){
+            left: 52px;
+        }
+
+        @media (max-width: 375px){
+            left: 34px;
+            top: 38px;
+        }
+
+        @media (max-width: 320px){
+            left: 15px;
+            top: 47px;
+        }
+    }
+
+    .steps-number-right{
+        position: absolute;
+        top: 32px;
+        left: 50px;
+        color: #26354A;
+        font-size: 48px;
+
+        @media (max-width: 1199px){
+            top: 40px;
+        }
+
+        @media (max-width: 991px){
+            top: 30px;
+        }
+
+        @media (max-width: 320px){
+            top: 40px;
+        }
+    }
+
+    .steps-hide-column{
+        @media (max-width: 991px){
+            display: none;   
+        }
+    }
+
+    .steps-line-container{
+        display: flex;
+        justify-content: center;
+
+        @media (max-width: 991px){
+            display: none;   
+        }
+    }
+
+    .steps-circle-image{
+        width: 128px;
+        height: 128px;
+
+        @media (max-width: 767px){
+            
+        }
+    }
+
+    .steps-button{
+        background-color: #049DBF;
+        border-radius: 12px;
+        padding: 13px 80px;
+        font-size: 20px;
+        margin-top: 65px;
+        margin-bottom: 60px;
+
+        @media (max-width: 767px){
+            font-size: 14px;  
+            padding: 13px 56px;
+        }
+    }
+}

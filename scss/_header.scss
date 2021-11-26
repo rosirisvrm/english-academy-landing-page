@@ -1,0 +1,45 @@
+.header-main{
+    .bottom-header{
+        background-color: #FFFFFF;
+
+        .header-brand{
+            width: 197px; 
+            height: 50px;
+
+            @media (max-width: 767px){
+                width: 103px; 
+                height: 26px;    
+            }
+        }
+
+        .login-button{
+            font-weight: 700;
+            border-radius: 12px;
+            padding: 10px 15px;
+            font-size: 16px;
+
+            @media (max-width: 991px){
+              font-size: 12px;
+              padding: 10px 10px;
+            }
+        }
+    }
+}
+
+.header-item{
+    cursor: pointer;
+}
+
+.header-item-active{
+    color: $gray-2;
+    a{
+        color: $gray-2;
+    }
+}
+
+.header-item-inactive{
+    color: $gray-3;
+    a{
+        color: $gray-3;
+    }
+}

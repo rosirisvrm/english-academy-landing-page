@@ -1,0 +1,72 @@
+$utilities: (
+  'Tamano de la fuente': (
+    responsive: true,
+    property: font-size,
+    class: ts,
+    values: (
+      10: 10px,
+      11: 11px,
+      12: 12px,
+      14: 14px,
+      16: 16px,
+      18: 18px,
+      20: 20px,
+      22: 22px,
+      24: 24px,
+      26: 26px,
+      28: 28px,
+      30: 30px,
+      32: 32px,
+      34: 34px,
+      36: 36px,
+      38: 38px,
+      40: 40px,
+      42: 42px,
+      50: 50px,
+    ),
+  ),
+  'min-height': (
+    responsive: true,
+    property: min-height,
+    class: mh,
+    values: (
+      200: 200px,
+      250: 250px,
+      300: 300px,
+      350: 350px,
+      450: 450px,
+      500: 500px,
+      550: 550px,
+      600: 600px,
+      750: 750px,
+    ),
+  ),
+);
+
+
+.text-lato{
+  font-family: 'Lato', serif;
+}
+
+.text-handlee{
+  font-family: 'Handlee', sans-serif;
+}
+
+.text-inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.list-none{
+  list-style: none;
+  padding-left: 0;
+}

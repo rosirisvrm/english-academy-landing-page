@@ -1,0 +1,24 @@
+.values{
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 230px 205px 140px 205px;
+
+        @media (max-width: 991px){
+            padding: 170px 0px 40px 0px;  
+        }
+    }
+
+    &-title{
+        margin-bottom: 48px !important;
+        font-size: 36px;
+
+        @media (max-width: 767px){
+            margin-bottom: 30px !important;
+            font-size: 23px;  
+        }
+    }
+}

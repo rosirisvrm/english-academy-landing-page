@@ -1,0 +1,13 @@
+{
+  "name": "confident-english",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1"
+  },
+  "dependencies": {
+    "gulp-twig": "^1.2.0"
+  }
+}

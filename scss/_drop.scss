@@ -1,0 +1,62 @@
+.drop{
+
+    &-container{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &-row{
+        display: flex;
+        justify-content: center;
+    }
+
+    &-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 80px;
+        box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        margin-bottom: 24px;
+
+        @media (max-width: 767px){
+            padding: 35px;
+        }
+    }
+
+    &-title{
+        margin-bottom: 40px !important;
+        font-size: 36px;
+
+        @media (max-width: 767px){
+            margin-bottom: 20px !important;
+            font-size: 23px;  
+        }
+    }
+
+    &-p-text{
+        color: $principal-dark;
+        font-size: 16px;
+        margin-bottom: 40px;
+        
+        @media (max-width: 767px){
+            font-size: 12px;  
+            margin-bottom: 20px;
+        }
+    }
+
+    &-button{
+        background-color: $gray-1;
+        border-radius: 12px;
+        padding: 13px 15px;
+        font-size: 20px;
+        color: $principal-dark;
+
+        @media (max-width: 991px){
+            font-size: 14px;  
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.arrow{
+    .arrow-container{
+        position: absolute;
+        top: 34px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @media (max-width: 767px){
+            top: 14px;
+        }
+    }
+
+    .arrow-image{
+        width: 88px; 
+        height: 135px;
+
+        @media (max-width: 767px){
+            height: 128px;    
+        }
+    }
+}
