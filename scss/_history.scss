@@ -20,18 +20,43 @@
             }
         }
 
-        .history-p-text{
+        .history-p-text1{
             margin-left: 80px;
             margin-right: 80px;
             margin-bottom: 40px;
-            font-size: 16px;
+            font-size: 16px; 
 
             @media (max-width: 767px){
                 font-size: 12px;  
                 margin-top: 24px;
                 margin-left: 0px;
                 margin-right: 0px;
-                margin-bottom: 110px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .history-p-text2{
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-bottom: 40px;
+            font-size: 16px;
+
+            @media (max-width: 1199px){
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+
+            @media (max-width: 991px){
+                margin-left: 80px;
+                margin-right: 80px;
+            }
+
+            @media (max-width: 767px){
+                font-size: 12px;  
+                margin-top: 24px;
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 80px;
             }
         }
 
@@ -48,6 +73,7 @@
             @media (max-width: 767px){
                 font-size: 12px;  
                 padding: 10px 10px;
+                width: 100%;
             }
         }
     }
