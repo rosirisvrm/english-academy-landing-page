@@ -8,11 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Lato&family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
 </head>
+
 <body>
     <main id="body-main">
-            <header class="header-main">
+        
+    <header class="header-main">
   <div class="bottom-header">
     <nav class="navbar navbar-expand">
       <div class="container py-3">
@@ -23,27 +25,27 @@
           
 
         <div class="row w-50 mx-0">
-          <ul class="navbar-nav justify-content-between d-none d-md-flex">
-            <li class="header-item header-item-active ts-12">
-              <a class="text-decoration-none" href="#">
+          <ul class="navbar-nav d-none d-md-flex justify-content-center">
+            <li class="header-item header-item-inactive ts-12">
+              <a class="text-decoration-none" href="index.html">
                 <span>Inicio</span>
               </a>
             </li>
             
-            <li class="header-item header-item-inactive ts-12">
-              <a class="text-decoration-none" href="#">
+            <li class="header-item header-item-active ts-12">
+              <a class="text-decoration-none" href="empresas.html">
                 <span>Empresas</span>
               </a>
             </li>
             
             <li class="header-item header-item-inactive ts-12">
-              <a class="text-decoration-none" href="#">
+              <a class="text-decoration-none" href="directivos.html">
                 Directivos
               </a>
             </li>
 
             <li class="header-item header-item-inactive ts-12">
-              <a class="text-decoration-none" href="#">
+              <a class="text-decoration-none" href="sobre-nosotros.html">
                 Nosotros
               </a>
             </li>
@@ -58,7 +60,8 @@
       </div>
     </nav>
   </div>
-</header>    <section class="business">
+</header>
+    <section class="business">
 
     <div class="business-over">
         <div class="business-container">
@@ -84,7 +87,8 @@
 
     <img class="business-image img-fluid" src="../assets/colleagues.png" alt="Colleagues">
     <img class="business-image2 img-fluid" src="../assets/colleagues2.png" alt="Colleagues">
-</section>    <section class="opinions">
+</section>
+    <section class="opinions">
     <div class="container">
         <div class="opinions-container">
 
@@ -94,7 +98,8 @@
 
         </div>
     </div>
-</section>    <section class="post-tips bg-primary">
+</section>
+    <section class="post-tips bg-primary">
 
     <div class="post-tips-over">
         <div class="post-tips-container">
@@ -157,7 +162,8 @@
 
     <img class="post-tips-image img-fluid" src="../assets/rectangle-blue-image.png" alt="Post Tips">
     <img class="post-tips-image2 img-fluid" src="../assets/rectangle-blue-image2.png" alt="Post Tips">
-</section>    <section class="dropdowns bg-primary">
+</section>
+    <section class="dropdowns bg-primary">
     <div class="container">
         <div class="dropdowns-container">
 
@@ -187,7 +193,8 @@
 
         </div>
     </div>
-</section>    <section class="more-information">
+</section>
+    <section class="more-information">
     <div class="container">
         <div class="more-information-container">
             <h2 class="more-information-title text-center fw-light">
@@ -201,7 +208,8 @@
             </button>
         </div>
     </div>
-</section>    <section class="steps bg-white">
+</section>
+    <section class="steps bg-white">
     <div class="container">
         <div class="steps-container">
 
@@ -405,7 +413,8 @@
 
         </div>
     </div>
-</section>    <section class="step-more-important bg-primary">
+</section>
+    <section class="step-more-important bg-primary">
 
     <div class="step-more-important-over">
         <div class="step-more-important-container">
@@ -428,7 +437,8 @@
     </div>
 
     <img class="step-more-important-image img-fluid" src="../assets/boy.png" alt="">
-</section>    <section class="business-testimonials bg-secondary">
+</section>
+    <section class="business-testimonials bg-secondary">
     <img class="business-testimonials-image-top" src="../assets/Ellipse-1.png" alt="Ellipse 1">
     <img class="business-testimonials-image-bottom" src="../assets/Ellipse-2.png" alt="Ellipse 2">
 
@@ -442,7 +452,8 @@
             </p>
         </div>
     </div>
-</section>    
+</section>
+
     </main>
     <footer id="footer-main" class="footer text-light">
     <div class="container">
@@ -485,6 +496,12 @@
 
 
 
+
+
+    <script>
+        const currentPath = window.location.pathname;
+        console.log(currentPath);
+    </script>
 </body>
 </html>
 

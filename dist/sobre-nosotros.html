@@ -8,11 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Lato&family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
 </head>
+
 <body>
     <main id="body-main">
-            <header class="header-main">
+        
+    <header class="header-main">
   <div class="bottom-header">
     <nav class="navbar navbar-expand">
       <div class="container py-3">
@@ -23,27 +25,27 @@
           
 
         <div class="row w-50 mx-0">
-          <ul class="navbar-nav justify-content-between d-none d-md-flex">
-            <li class="header-item header-item-active ts-12">
-              <a class="text-decoration-none" href="#">
+          <ul class="navbar-nav d-none d-md-flex justify-content-center">
+            <li class="header-item header-item-inactive ts-12">
+              <a class="text-decoration-none" href="index.html">
                 <span>Inicio</span>
               </a>
             </li>
             
             <li class="header-item header-item-inactive ts-12">
-              <a class="text-decoration-none" href="#">
+              <a class="text-decoration-none" href="empresas.html">
                 <span>Empresas</span>
               </a>
             </li>
             
             <li class="header-item header-item-inactive ts-12">
-              <a class="text-decoration-none" href="#">
+              <a class="text-decoration-none" href="directivos.html">
                 Directivos
               </a>
             </li>
 
-            <li class="header-item header-item-inactive ts-12">
-              <a class="text-decoration-none" href="#">
+            <li class="header-item header-item-active ts-12">
+              <a class="text-decoration-none" href="sobre-nosotros.html">
                 Nosotros
               </a>
             </li>
@@ -58,7 +60,8 @@
       </div>
     </nav>
   </div>
-</header>    <section class="history bg-primary">
+</header>
+    <section class="history bg-primary">
     <div class="container">
         <div class="history-container">
             <h2 class="history-title text-white text-center fw-bold">
@@ -79,7 +82,8 @@
             </button>
         </div>
     </div>
-</section>    <section class="team">
+</section>
+    <section class="team">
     <div class="container">
         <div class="team-container">
 
@@ -162,7 +166,8 @@
 
         </div>
     </div>
-</section>    <section class="drop position-relative">
+</section>
+    <section class="drop position-relative">
     <div class="container drop-container">
       <div class="row mx-0 drop-row">
         <div class="col-12 col-lg-8 bg-white drop-card">
@@ -177,7 +182,8 @@
       </div>
     </div>
   </section>
-      <section class="values bg-primary">
+  
+    <section class="values bg-primary">
     <div class="container">
         <div class="values-container">
 
@@ -215,7 +221,8 @@
 
         </div>
     </div>
-</section>    
+</section>
+
     </main>
     <footer id="footer-main" class="footer text-light">
     <div class="container">
@@ -258,6 +265,12 @@
 
 
 
+
+
+    <script>
+        const currentPath = window.location.pathname;
+        console.log(currentPath);
+    </script>
 </body>
 </html>
 

@@ -1,0 +1,16 @@
+{% include "head.twig" %}
+<body>
+    <main id="body-main">
+        {% block content %}
+    
+        {% endblock %}
+    </main>
+    {% include "footer.twig" %}
+
+    <script>
+        const currentPath = window.location.pathname;
+        console.log(currentPath);
+    </script>
+</body>
+</html>
+

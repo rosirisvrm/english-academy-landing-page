@@ -8,11 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Lato&family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../../css/main.css">
 </head>
+
 <body>
     <main id="body-main">
-            <header class="header-main">
+        
+    <header class="header-main">
   <div class="bottom-header">
     <nav class="navbar navbar-expand">
       <div class="container py-3">
@@ -23,27 +25,27 @@
           
 
         <div class="row w-50 mx-0">
-          <ul class="navbar-nav justify-content-between d-none d-md-flex">
+          <ul class="navbar-nav d-none d-md-flex justify-content-center">
             <li class="header-item header-item-active ts-12">
-              <a class="text-decoration-none" href="#">
+              <a class="text-decoration-none" href="index.html">
                 <span>Inicio</span>
               </a>
             </li>
             
             <li class="header-item header-item-inactive ts-12">
-              <a class="text-decoration-none" href="#">
+              <a class="text-decoration-none" href="empresas.html">
                 <span>Empresas</span>
               </a>
             </li>
             
             <li class="header-item header-item-inactive ts-12">
-              <a class="text-decoration-none" href="#">
+              <a class="text-decoration-none" href="directivos.html">
                 Directivos
               </a>
             </li>
 
             <li class="header-item header-item-inactive ts-12">
-              <a class="text-decoration-none" href="#">
+              <a class="text-decoration-none" href="sobre-nosotros.html">
                 Nosotros
               </a>
             </li>
@@ -58,7 +60,8 @@
       </div>
     </nav>
   </div>
-</header>    <section class="home-carousel bg-primary">
+</header>
+    <section class="home-carousel bg-primary">
     <div class="container">
         <div class="carousel-container">
             <h2 class="carousel-title text-white text-center fw-light">¿Te sientes incompetente 
@@ -77,11 +80,13 @@
             </p>
         </div>
     </div>
-</section>    <section class="arrow position-relative">
+</section>
+    <section class="arrow position-relative">
     <div class="arrow-container">
         <img class="arrow-image" src="../assets/vector-flecha.png" alt="Arrow">
     </div>
-</section>    <section class="home-cards">
+</section>
+    <section class="home-cards">
     <div class="container">
         <div class="home-cards-container">
 
@@ -183,7 +188,8 @@
 
         </div>
     </div>
-</section>    <section class="home-passion bg-white">
+</section>
+    <section class="home-passion bg-white">
     <div class="container">
         <div class="home-passion-container">
             <h2 class="home-passion-title text-center fw-light"> 
@@ -235,7 +241,8 @@
             </div>
         </div>
     </div>
-</section>    <section class="testimonial bg-secondary">
+</section>
+    <section class="testimonial bg-secondary">
     <img class="testimonial-image-top" src="../assets/Ellipse-1.png" alt="Ellipse 1">
     <img class="testimonial-image-bottom" src="../assets/Ellipse-2.png" alt="Ellipse 2">
 
@@ -246,7 +253,8 @@
             </h2>
         </div>
     </div>
-</section>    
+</section>
+    
 <section class="companies bg-white">
     <div class="container">
         <div class="companies-container">
@@ -273,7 +281,8 @@
             </ul>-->
         </div>
     </div> 
-</section>    <section class="home-question bg-primary">
+</section>
+    <section class="home-question bg-primary">
     <div class="container">
         <div class="home-question-container">
             <h2 class="home-question-title text-white text-center fw-light">
@@ -286,7 +295,9 @@
             </button>
         </div>
     </div>
-</section>    </main>
+</section>
+
+    </main>
     <footer id="footer-main" class="footer text-light">
     <div class="container">
         <div class="footer-container">
@@ -328,6 +339,12 @@
 
 
 
+
+
+    <script>
+        const currentPath = window.location.pathname;
+        console.log(currentPath);
+    </script>
 </body>
 </html>
 
