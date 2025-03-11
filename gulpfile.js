@@ -8,7 +8,7 @@ function compileTwig(cb){
   .pipe(plumber())
   .pipe(twig({data:{
     site:{
-      title: 'confident english'
+      title: 'english-academy'
     }
   }}))
   .pipe(gulp.dest('dist/'))
