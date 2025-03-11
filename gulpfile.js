@@ -15,10 +15,17 @@ function compileTwig(cb){
   cb();
 }
 
+function copyCSS(cb) {
+  gulp.src('src/css/**/*.css') // Selecciona todos los archivos CSS en 'src/css'
+    .pipe(gulp.dest('dist/css')); // Los copia a 'dist/css'
+  cb();
+}
+
 function defaultTask() {
     gulp.watch('src/**/*.twig', compileTwig);
+    gulp.watch('src/css/**/*.css', copyCSS);
 }
   
 
-exports.build = compileTwig
+exports.build = gulp.series(compileTwig, copyCSS);
 exports.default = defaultTask
