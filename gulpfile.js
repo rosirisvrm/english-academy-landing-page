@@ -21,11 +21,19 @@ function copyCSS(cb) {
   cb();
 }
 
+function copyAssets(cb) {
+  gulp.src('src/assets/**/*') // Copia todos los archivos dentro de 'src/assets'
+    .pipe(gulp.dest('dist/assets')); // Los mueve a 'dist/assets'
+  cb();
+}
+
+
 function defaultTask() {
     gulp.watch('src/**/*.twig', compileTwig);
     gulp.watch('src/css/**/*.css', copyCSS);
+    gulp.watch('src/assets/**/*', copyAssets);
 }
   
 
-exports.build = gulp.series(compileTwig, copyCSS);
+exports.build = gulp.series(compileTwig, copyCSS, copyAssets);
 exports.default = defaultTask
