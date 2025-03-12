@@ -12043,8 +12043,8 @@ fieldset:disabled .btn {
 .header-main .bottom-header .login-button {
   font-weight: 700;
   border-radius: 12px;
-  padding: 10px 15px;
-  font-size: 16px;
+  padding: 10px 23px;
+  font-size: 14px;
 }
 
 @media (max-width: 991px) {
@@ -12056,7 +12056,10 @@ fieldset:disabled .btn {
 
 .header-item {
   cursor: pointer;
-  margin-right: 48px;
+}
+
+.header-item:hover a {
+  color: #048ABF;
 }
 
 .header-item-active {
@@ -12089,7 +12092,7 @@ fieldset:disabled .btn {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 72px 205px;
+  padding: 82px 205px;
 }
 
 @media (max-width: 991px) {
@@ -12188,7 +12191,7 @@ fieldset:disabled .btn {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 129px 205px 85px 205px;
+  padding: 148px 205px 85px 205px;
 }
 
 @media (max-width: 991px) {
@@ -12200,7 +12203,7 @@ fieldset:disabled .btn {
 .home-cards-title {
   color: #26354A;
   margin-bottom: 32px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -12246,7 +12249,7 @@ fieldset:disabled .btn {
 }
 
 .home-cards-card p {
-  font-size: 13px;
+  font-size: 14px;
   color: #26354A;
 }
 
@@ -12286,7 +12289,7 @@ fieldset:disabled .btn {
 .home-passion-title {
   color: #26354A;
   margin-bottom: 65px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -12298,7 +12301,7 @@ fieldset:disabled .btn {
 
 .home-passion-subtitle {
   color: #049DBF;
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -12353,7 +12356,7 @@ fieldset:disabled .btn {
   background-color: #049DBF;
   border-radius: 12px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 30px;
 }
 
@@ -12418,7 +12421,7 @@ fieldset:disabled .btn {
 
 .testimonial-title {
   margin-bottom: 75px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -12482,7 +12485,7 @@ fieldset:disabled .btn {
 .companies-title {
   color: #26354A;
   margin-bottom: 65px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -12555,7 +12558,7 @@ fieldset:disabled .btn {
 
 .home-question-container .home-question-title {
   margin-bottom: 65px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -12569,7 +12572,7 @@ fieldset:disabled .btn {
   background-color: #FFC431;
   border-radius: 12px;
   padding: 13px 80px;
-  font-size: 20px;
+  font-size: 16px;
   color: #26354A;
 }
 
@@ -12659,7 +12662,7 @@ fieldset:disabled .btn {
   background-color: #049DBF;
   border-radius: 12px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width: 991px) {
@@ -12750,7 +12753,7 @@ fieldset:disabled .btn {
 .opinions-title {
   color: #26354A;
   margin-bottom: 48px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -12802,7 +12805,7 @@ fieldset:disabled .btn {
 
 .post-tips .post-tips-container .post-tips-title {
   margin-bottom: 40px !important;
-  font-size: 36px;
+  font-size: 28px;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -13062,7 +13065,7 @@ fieldset:disabled .btn {
 
 .dropdowns-title {
   margin-bottom: 48px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -13074,6 +13077,7 @@ fieldset:disabled .btn {
 
 .dropdowns-ul {
   color: #FFFFFF;
+  list-style: none;
 }
 
 .more-information {
@@ -13106,7 +13110,7 @@ fieldset:disabled .btn {
 .more-information-container .more-information-title {
   margin-bottom: 65px !important;
   color: #26354A;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -13120,7 +13124,7 @@ fieldset:disabled .btn {
   background-color: #034AA6;
   border-radius: 12px;
   padding: 13px 80px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width: 767px) {
@@ -13156,7 +13160,7 @@ fieldset:disabled .btn {
 .steps-title {
   color: #26354A;
   margin-bottom: 48px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -13372,7 +13376,7 @@ fieldset:disabled .btn {
   background-color: #049DBF;
   border-radius: 12px;
   padding: 13px 80px;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 65px;
   margin-bottom: 60px;
 }
@@ -13433,7 +13437,7 @@ fieldset:disabled .btn {
 
 .step-more-important .step-more-important-container .step-more-important-title {
   margin-bottom: 40px !important;
-  font-size: 36px;
+  font-size: 28px;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -13477,7 +13481,7 @@ fieldset:disabled .btn {
   background-color: #049DBF;
   border-radius: 12px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width: 991px) {
@@ -13543,7 +13547,7 @@ fieldset:disabled .btn {
 
 .business-testimonials-title {
   margin-bottom: 20px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -13637,7 +13641,7 @@ fieldset:disabled .btn {
 .managers .managers-container .managers-title {
   color: #26354A;
   margin-bottom: 40px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -13672,7 +13676,7 @@ fieldset:disabled .btn {
   background-color: #049DBF;
   border-radius: 12px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width: 991px) {
@@ -13773,7 +13777,7 @@ fieldset:disabled .btn {
 
 .managers-post-tips .managers-post-tips-container .managers-post-tips-title {
   margin-bottom: 40px !important;
-  font-size: 36px;
+  font-size: 28px;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -14004,7 +14008,7 @@ fieldset:disabled .btn {
   background-color: #FFC431;
   border-radius: 12px;
   padding: 13px 80px;
-  font-size: 20px;
+  font-size: 16px;
   color: #26354A;
 }
 
@@ -14081,7 +14085,7 @@ fieldset:disabled .btn {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 65px 0px;
+  padding: 100px 0px 130px 0px;
 }
 
 @media (max-width: 991px) {
@@ -14093,7 +14097,7 @@ fieldset:disabled .btn {
 .reasons-title {
   color: #26354A;
   margin-bottom: 65px !important;
-  font-size: 36px;
+  font-size: 28px;
   margin-right: 280px;
   margin-left: 280px;
 }
@@ -14195,7 +14199,7 @@ fieldset:disabled .btn {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 80px;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 @media (max-width: 991px) {
@@ -14214,7 +14218,7 @@ fieldset:disabled .btn {
 
 .thought .thought-container .thought-title {
   margin-bottom: 40px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 991px) {
@@ -14233,7 +14237,7 @@ fieldset:disabled .btn {
   background-color: #049DBF;
   border-radius: 12px;
   padding: 10px 63px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width: 991px) {
@@ -14299,7 +14303,7 @@ fieldset:disabled .btn {
 
 .managers-testimonials-title {
   margin-bottom: 75px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -14360,7 +14364,7 @@ fieldset:disabled .btn {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-right: 80px;
-  padding-top: 56px;
+  padding-top: 80px;
 }
 
 @media (max-width: 991px) {
@@ -14380,7 +14384,7 @@ fieldset:disabled .btn {
 .click-button-bottom .click-button-bottom-container .click-button-bottom-title {
   color: #26354A;
   margin-bottom: 40px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 991px) {
@@ -14421,7 +14425,7 @@ fieldset:disabled .btn {
   background-color: #049DBF;
   border-radius: 12px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width: 991px) {
@@ -14514,7 +14518,7 @@ fieldset:disabled .btn {
 
 .decision-container .decision-title {
   margin-bottom: 65px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -14528,7 +14532,7 @@ fieldset:disabled .btn {
   background-color: #FFC431;
   border-radius: 12px;
   padding: 13px 80px;
-  font-size: 20px;
+  font-size: 16px;
   color: #26354A;
 }
 
@@ -14625,7 +14629,7 @@ fieldset:disabled .btn {
   background-color: #049DBF;
   border-radius: 12px;
   padding: 10px 100px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 @media (max-width: 991px) {
@@ -14672,7 +14676,7 @@ fieldset:disabled .btn {
 .team-title {
   color: #26354A;
   margin-bottom: 32px !important;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 @media (max-width: 767px) {
@@ -14812,7 +14816,7 @@ fieldset:disabled .btn {
 
 .drop-title {
   margin-bottom: 40px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -14839,7 +14843,7 @@ fieldset:disabled .btn {
   background-color: #FFC431;
   border-radius: 12px;
   padding: 13px 15px;
-  font-size: 20px;
+  font-size: 16px;
   color: #26354A;
 }
 
@@ -14874,7 +14878,7 @@ fieldset:disabled .btn {
 
 .values-title {
   margin-bottom: 48px !important;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -14882,6 +14886,15 @@ fieldset:disabled .btn {
     margin-bottom: 30px !important;
     font-size: 23px;
   }
+}
+
+.values-ul{
+  list-style: none;
+  color: #fff;
+}
+
+.values-li{
+  color: #fff;
 }
 
 .footer {

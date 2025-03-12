@@ -29,13 +29,20 @@ function copyAssets(cb) {
   cb();
 }
 
+function copyJs(cb) {
+  gulp.src('js/**/*.js') 
+    .pipe(plumber()) 
+    .pipe(gulp.dest('dist/js'));
+  cb();
+}
 
 function defaultTask() {
     gulp.watch('src/**/*.twig', compileTwig);
     gulp.watch('css/**/*.css', copyCSS);
     gulp.watch('assets/**/*', copyAssets);
+    gulp.watch('js/**/*', copyJs);
 }
   
 
-exports.build = gulp.series(compileTwig, copyCSS, copyAssets);
+exports.build = gulp.series(compileTwig, copyCSS, copyAssets, copyJs);
 exports.default = defaultTask
