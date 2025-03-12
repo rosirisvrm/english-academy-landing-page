@@ -14,11 +14,7 @@
             const currentPath = window.location.pathname;
             console.log(currentPath);
 
-            if(currentPath === '/dist/'){ // Home page only in development
-                document.getElementById('index').classList.remove("header-item-inactive");
-                document.getElementById('index').classList.add("header-item-active");
-
-            if(currentPath === '/'){ // Home page in prod
+            if(currentPath === '/dist/' || currentPath === '/'){ // Home page to development / production
                 document.getElementById('index').classList.remove("header-item-inactive");
                 document.getElementById('index').classList.add("header-item-active");
 
