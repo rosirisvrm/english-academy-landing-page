@@ -8,8 +8,18 @@
     {% include "footer.twig" %}
 
     <script>
+        const pagesList = ['index', 'empresas', 'directivos', 'nosotros'];
+
         const currentPath = window.location.pathname;
         console.log(currentPath);
+
+        pagesList.forEach(page => {
+            if (currentPath.includes(`${page}.html`)) {
+                document.getElementById(page).classList.remove("header-item-inactive");
+                document.getElementById(page).classList.add("header-item-active");
+            }
+        });
+
     </script>
 </body>
 </html>
