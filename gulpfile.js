@@ -16,13 +16,15 @@ function compileTwig(cb){
 }
 
 function copyCSS(cb) {
-  gulp.src('src/css/**/*.css') // Selecciona todos los archivos CSS en 'src/css'
+  gulp.src('css/**/*.css') // Selecciona todos los archivos CSS en 'src/css'
+    .pipe(plumber()) // Maneja errores
     .pipe(gulp.dest('dist/css')); // Los copia a 'dist/css'
   cb();
 }
 
 function copyAssets(cb) {
-  gulp.src('src/assets/**/*') // Copia todos los archivos dentro de 'src/assets'
+  gulp.src('assets/**/*') // Copia todos los archivos dentro de 'src/assets'
+    .pipe(plumber()) // Maneja errores
     .pipe(gulp.dest('dist/assets')); // Los mueve a 'dist/assets'
   cb();
 }
@@ -30,8 +32,8 @@ function copyAssets(cb) {
 
 function defaultTask() {
     gulp.watch('src/**/*.twig', compileTwig);
-    gulp.watch('src/css/**/*.css', copyCSS);
-    gulp.watch('src/assets/**/*', copyAssets);
+    gulp.watch('css/**/*.css', copyCSS);
+    gulp.watch('assets/**/*', copyAssets);
 }
   
 
