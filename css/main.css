@@ -12763,6 +12763,8 @@ fieldset:disabled .btn {
   }
 }
 
+/* ------------------------------------------------------------ */
+
 .post-tips .post-tips-over {
   position: absolute;
   width: 100%;
@@ -12785,7 +12787,7 @@ fieldset:disabled .btn {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-right: 80px;
+  padding-right: 48px;
   padding-top: 50px;
 }
 
@@ -12797,14 +12799,14 @@ fieldset:disabled .btn {
 
 @media (max-width: 767px) {
   .post-tips .post-tips-container {
-    padding: 30px 25px 30px 25px;
+    padding: 60px 25px 60px 25px;
     width: 100%;
     left: 0px;
   }
 }
 
 .post-tips .post-tips-container .post-tips-title {
-  margin-bottom: 40px !important;
+  margin-bottom: 30px !important;
   font-size: 28px;
   margin-left: 30px;
   margin-right: 30px;
@@ -12812,7 +12814,6 @@ fieldset:disabled .btn {
 
 @media (max-width: 991px) {
   .post-tips .post-tips-container .post-tips-title {
-    margin-bottom: 20px !important;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -12839,13 +12840,13 @@ fieldset:disabled .btn {
   .post-tips .post-tips-container .post-tips-p-text {
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 20px;
   }
 }
 
 @media (max-width: 767px) {
   .post-tips .post-tips-container .post-tips-p-text {
-    font-size: 12px;
+    font-size: 13px;
+    margin-bottom: 30px;
   }
 }
 
@@ -12859,7 +12860,6 @@ fieldset:disabled .btn {
 }
 
 .post-tips .post-tips-container .post-tips-card {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12873,125 +12873,75 @@ fieldset:disabled .btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 30px;
-  margin-bottom: 16px;
+  margin-bottom: 36px;
 }
 
 @media (max-width: 991px) {
   .post-tips .post-tips-container .post-tips-card {
-    margin-right: 10px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .post-tips .post-tips-container .post-tips-card {
     margin-bottom: 10px;
   }
 }
 
-.post-tips .post-tips-container .post-tips-card img {
+.post-it{
   width: 145px;
   height: 130px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (max-width: 767px) {
-  .post-tips .post-tips-container .post-tips-card img {
-    width: 87px;
-    height: 78px;
+@media (max-width: 991px) {
+  .post-tips .post-tips-container .post-tips-card .post-it {
+    width: 120px;
+    height: 105px;
   }
 }
 
+.post-it-bg-green{
+  background-color:#bdf2bfff;
+  transform: rotateZ(-4deg);
+}
+
+.post-it-bg-red{
+  background-color: #ffb5b9ff;
+  transform: rotateZ(4deg);
+}
+
+.post-it-bg-blue{
+  background-color: #b8ebf2ff;
+  transform: rotateZ(-4deg);
+}
+
+.post-it-bg-orange{
+  background-color: #f2ceacff;
+  transform: rotateZ(4deg);
+}
+
+.post-it-bg-purple{
+  background-color: #eec7fcff;
+  transform: rotateZ(-4deg);
+}
+
+.post-it-bg-yellow{
+  background-color: #fadc57ff;
+  transform: rotateZ(4deg);
+}
+
 .post-tips .post-tips-container .post-tips-card p {
-  position: absolute;
   font-size: 13px;
   color: #26354A;
 }
 
-@media (min-width: 1333px) {
-  .post-tips .post-tips-container .post-tips-card p {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
 @media (max-width: 767px) {
   .post-tips .post-tips-container .post-tips-card p {
-    font-size: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
-.post-tips .post-tips-container .post-tips-card .post-tips-p1 {
-  top: 20px;
-  -webkit-transform: rotateZ(-4deg);
-          transform: rotateZ(-4deg);
-}
-
-@media (max-width: 767px) {
-  .post-tips .post-tips-container .post-tips-card .post-tips-p1 {
-    top: 3px;
-  }
-}
-
-@media (max-width: 374px) {
-  .post-tips .post-tips-container .post-tips-card .post-tips-p1 {
-    margin: 0px !important;
-  }
-}
-
-.post-tips .post-tips-container .post-tips-card .post-tips-p2 {
-  top: 35px;
-  -webkit-transform: rotateZ(4deg);
-          transform: rotateZ(4deg);
-}
-
-@media (max-width: 767px) {
-  .post-tips .post-tips-container .post-tips-card .post-tips-p2 {
-    top: 10px;
-  }
-}
-
-.post-tips .post-tips-container .post-tips-card .post-tips-p3 {
-  top: 38px;
-  -webkit-transform: rotateZ(-4deg);
-          transform: rotateZ(-4deg);
-}
-
-@media (max-width: 767px) {
-  .post-tips .post-tips-container .post-tips-card .post-tips-p3 {
-    top: 12px;
-  }
-}
-
-.post-tips .post-tips-container .post-tips-card .post-tips-p4 {
-  top: 40px;
-  -webkit-transform: rotateZ(4deg);
-          transform: rotateZ(4deg);
-}
-
-@media (max-width: 767px) {
-  .post-tips .post-tips-container .post-tips-card .post-tips-p4 {
-    top: 12px;
-  }
-}
-
-.post-tips .post-tips-container .post-tips-card .post-tips-p5 {
-  top: 45px;
-  -webkit-transform: rotateZ(-4deg);
-          transform: rotateZ(-4deg);
-}
-
-@media (max-width: 767px) {
-  .post-tips .post-tips-container .post-tips-card .post-tips-p5 {
-    top: 16px;
-  }
-}
-
-.post-tips .post-tips-container .post-tips-card .post-tips-p6 {
-  top: 35px;
-  -webkit-transform: rotateZ(4deg);
-          transform: rotateZ(4deg);
-}
-
-@media (max-width: 767px) {
-  .post-tips .post-tips-container .post-tips-card .post-tips-p6 {
-    top: 10px;
+    font-size: 12px;
   }
 }
 
@@ -13013,7 +12963,7 @@ fieldset:disabled .btn {
 @media (max-width: 767px) {
   .post-tips .post-tips-rectangle2 {
     display: initial;
-    height: 445px;
+    height: 710px;
     width: -webkit-fill-available;
   }
 }
@@ -13035,10 +12985,12 @@ fieldset:disabled .btn {
 @media (max-width: 767px) {
   .post-tips .post-tips-image2 {
     display: initial;
-    height: 445px;
+    height: 710px;
     width: -webkit-fill-available;
   }
 }
+
+/* ------------------------------------------------------------------- */
 
 .dropdowns-container {
   display: -webkit-box;
